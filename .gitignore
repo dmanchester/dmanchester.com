@@ -1,0 +1,6 @@
+# Exclude documentation produced from files that are version-controlled in
+# "playfop" repository.
+javadoc/
+scaladoc/
+user-guide/
+
