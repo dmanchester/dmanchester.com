@@ -4,12 +4,13 @@
 
 * Generate an application secret ([instructions](https://playframework.com/documentation/2.6.x/ApplicationSecret#Generating-an-application-secret)).
 * Create a distribution of the [`sample-scala` application](https://github.com/dmanchester/playfop/tree/master/sample-scala) ([instructions](https://playframework.com/documentation/2.6.x/Deploying#Using-the-dist-task)). Unzip the distribution to a convenient location.
-* Create a start script (you may also include any of the application's [optional system properties](https://github.com/dmanchester/playfop/tree/master/sample-scala#miscellaneous)):
+* Create a start script (you may also include any of the application's [optional configuration settings](https://github.com/dmanchester/playfop/tree/master/sample-scala#running-playfop-labels)):
   ```
   nohup path_to_unzipped_dist/bin/sample-scala \
     -Dplay.http.context=/playfop/live-demo \
     '-Dplay.http.secret.key=your_secret_key' &
   ```
+* Make the start script executable with `chmod`.
 
 ## Miscellaneous
 
