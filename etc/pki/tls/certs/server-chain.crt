@@ -1,22 +1,113 @@
+sslorders@geotrust.com
+	
+12:21 AM (6 minutes ago)
+	
+to me
+Dear Daniel Manchester,
+
+Congratulations! GeoTrust has approved your request for a RapidSSL certificate. Your certificate is included at the end of this email.
+
+INSTALLATION INSTRUCTIONS
+
+1. INSTALL CERTIFICATE:
+Install the X.509 version of your certificate included at the end of this e-mail.
+For installation instructions for your SSL Certificate, go to:
+https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&id=INFO2699
+
+2. INTERMEDIATE CERTIFICATE ADVISORY:
+You MUST install the GeoTrust intermediate Certificate included at end of this e-mail on your server together with your Certificate or it may not operate correctly
+
+You can also get your GeoTrust intermediate Certificates at:
+https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&id=INFO1548
+
+3. CHECK INSTALLATION:
+Ensure you have installed your certificate correctly at:
+https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&id=SO9556&actp=LIST&viewlocale=en_US
+
+4. INSTALL THE GEOTRUST TRUE SITE SEAL:
+Additionally, as part of your SSL Certificate Service, you are entitled to display the GeoTrust True Site Seal - recognized across the Internet and around the world as a symbol of authenticity, security, and trust - to build consumer confidence in your Web site.
+
+Installation instructions for the GeoTrust True Site Seal can be found on the following link:
+https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&id=SO14424&actp=LIST&viewlocale=en_US
+
+Visit the GeoTrust Support Web site, where you will find a range of support tools to help you:
+http://www.rapidssl.com/support
+
+Best regards,
+
+RapidSSL Support
+https://www.rapidssl.com/support/contact
+
+** MICROSOFT IIS and TOMCAT USERS
+Microsoft and Tomcat users are advised to download a PKCS #7 formatted certificate from the GeoTrust User Portal:
+https://products.geotrust.com/orders/orderinformation/authentication.do. PKCS #7 is the default format used by these vendors during installation and includes the intermediate CA certificate, you may also install the below web server certificate and intermediate CA certificate individually.
+
+Web Server CERTIFICATE
+-----------------
+
 -----BEGIN CERTIFICATE-----
-MIIETTCCAzWgAwIBAgIDAjpxMA0GCSqGSIb3DQEBCwUAMEIxCzAJBgNVBAYTAlVTMRYwFAYDVQQK
-Ew1HZW9UcnVzdCBJbmMuMRswGQYDVQQDExJHZW9UcnVzdCBHbG9iYWwgQ0EwHhcNMTMxMjExMjM0
-NTUxWhcNMjIwNTIwMjM0NTUxWjBCMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNR2VvVHJ1c3QgSW5j
-LjEbMBkGA1UEAxMSUmFwaWRTU0wgU0hBMjU2IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
-CgKCAQEAu1jBEgEul9h9GKrIwuWF4hdsYC7JjTEFORoGmFbdVNcRjFlbPbFUrkshhTIWX1SG5tmx
-2GCJa1i+ctqgAEJ2sSdZTM3jutRc2aZ/uyt11UZEvexAXFm33Vmf8Wr3BvzWLxmKlRK6msrVMNI4
-/Bk7WxU7NtBDTdFlodSLwWBBs9ZwF8w5wJwMoD23ESJOztmpetIqYpygC04q18NhWoXdXBC5VD0t
-A/hJ8LySt7ecMcfpuKqCCwW5Mc0IW7siC/acjopVHHZDdvDibvDfqCl158ikh4tq8bsIyTYYZe5Q
-Q7hdctUoOeFTPiUs2itP3YqeUFDgb5rE1RkmiQF1cwmbOwIDAQABo4IBSjCCAUYwHwYDVR0jBBgw
-FoAUwHqYaI2J+6sFZAwRfap9ZbjKzE4wHQYDVR0OBBYEFJfCJ1CewsnsDIgyyHyt4qYBT9pvMBIG
-A1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6
-Ly9nMS5zeW1jYi5jb20vY3Jscy9ndGdsb2JhbC5jcmwwLwYIKwYBBQUHAQEEIzAhMB8GCCsGAQUF
-BzABhhNodHRwOi8vZzIuc3ltY2IuY29tMEwGA1UdIARFMEMwQQYKYIZIAYb4RQEHNjAzMDEGCCsG
-AQUFBwIBFiVodHRwOi8vd3d3Lmdlb3RydXN0LmNvbS9yZXNvdXJjZXMvY3BzMCkGA1UdEQQiMCCk
-HjAcMRowGAYDVQQDExFTeW1hbnRlY1BLSS0xLTU2OTANBgkqhkiG9w0BAQsFAAOCAQEANevhiyBW
-lLp6vXmp9uP+bji0MsGj21hWID59xzqxZ2nVeRQb9vrsYPJ5zQoMYIp0TKOTKqDwUX/N6fmS/Zar
-RfViPT9gRlATPSATGC6URq7VIf5Dockj/lPEvxrYrDrK3maXI67T30pNcx9vMaJRBBZqAOv5jUOB
-8FChH6bKOvMoPF9RrNcKRXdLDlJiG9g4UaCSLT+Qbsh+QJ8gRhVd4FB84XavXu0R0y8TubglpK9Y
-Ca81tGJUheNI3rzSkHp6pIQNo0LyUcDUrVNlXWz4Px8G8k/Ll6BKWcZ40egDuYVtLLrhX7atKz4l
-ecWLVtXjCYDqwSfC2Q7sRwrp0Mr82A==
+MIIFxDCCBKygAwIBAgIQDQfgmawKaS3b+TntZsEPXDANBgkqhkiG9w0BAQsFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAe
+Fw0xODEwMTkwMDAwMDBaFw0xOTExMTgxMjAwMDBaMB4xHDAaBgNVBAMTE3d3dy5k
+bWFuY2hlc3Rlci5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDW
+C49uRwKZM/RrgysIgbpQYF5wcJ2VL+j4UMN/UB5JYi6MtNHWBPbhzfeZkIinNZlf
+TKALquuNdqB0yAh33PGil+PfIbpnpyeJGQWQoNkoxiLu6xiOKYFvwmhQuvcct3IH
+AyHgOe6VvocTC2aDimrvWDmU2IJBhw59rFZ1Mk9WzxepUTo9oObDor1PPvVyx6vL
+puVYGKUITK0rjhBAHsp1PVNJu6WII/u7c0WI5+V3SlkAMUReHFMhOAW3mstvetNL
+ZvSY002mizQb58zjZVXJ0dVFeehn+/B7xV7Ms9w7LXMqSyo+mOG7YYT49qMygf3g
+fCBU6mAPYrDs+JVOQKlnAgMBAAGjggK8MIICuDAfBgNVHSMEGDAWgBRTyhdZ/GvA
+AyEvGq7kqqgcglbadTAdBgNVHQ4EFgQUtYVjbd11tHJRMnaQQ2IFzmz3EP0wLwYD
+VR0RBCgwJoITd3d3LmRtYW5jaGVzdGVyLmNvbYIPZG1hbmNoZXN0ZXIuY29tMA4G
+A1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwPgYD
+VR0fBDcwNTAzoDGgL4YtaHR0cDovL2NkcC5yYXBpZHNzbC5jb20vUmFwaWRTU0xS
+U0FDQTIwMTguY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAECMCowKAYIKwYBBQUH
+AgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQIBMHUGCCsG
+AQUFBwEBBGkwZzAmBggrBgEFBQcwAYYaaHR0cDovL3N0YXR1cy5yYXBpZHNzbC5j
+b20wPQYIKwYBBQUHMAKGMWh0dHA6Ly9jYWNlcnRzLnJhcGlkc3NsLmNvbS9SYXBp
+ZFNTTFJTQUNBMjAxOC5jcnQwCQYDVR0TBAIwADCCAQQGCisGAQQB1nkCBAIEgfUE
+gfIA8AB2AKS5CZC0GFgUh7sTosxncAo8NZgE+RvfuON3zQ7IDdwQAAABZoqMpFwA
+AAQDAEcwRQIhALOGyUwy/mSKiYGrI0/KPtbsNNwIM5iez4Jv/Kb96EN3AiBbSYVt
+byjRqRJ1iDst4bGQbMrVaX0Wy+CSDUliX8BuXAB2AId1v+dZfPiMQ5lfvfNu/1aN
+R1Y2/0q1YMG06v9eoIMPAAABZoqMpVYAAAQDAEcwRQIgBSRgpqfZgM3aD0QLxHmZ
+zDzLLBVnAjYlAoHnvgBWWOcCIQD9+S0L1kc130YmGddupryIgbBUbSm9J/vuHgkn
+U0hw2zANBgkqhkiG9w0BAQsFAAOCAQEAmxfT4o3rqm3VnnjQg9rBaMGMQfpyfIQM
+094LXsG3s2Tsru6rzyG4YpfwcAsnIhu46693cgticpTET7Zq+fO2tbgGIWQfVi0E
+SwelEfnVJoTTI9ywqEF8XGGEd+Nz5VCjNbqTPPZS+fXUFMZQUq0lu0z9hogayNXZ
+wWnJgMHKrzn7xJD6eB4a/D/zyyzxmejCkHiXn8WqmEsb+kXdEgt4l6z0i+tLuLvF
+bIxbCU2QHURd5bfDRGQuJLDalxidmVZjYelroM5IyFKtMxTpPSf6czMrH0GIz6Gv
+nuoo9gAHhjI/x/Ikuh+KBt+6oNE+Wa//Zkojvi+CUNU8i7AT9L4tHA==
+-----END CERTIFICATE-----
+
+
+INTERMEDIATE CA:
+---------------------------------------
+
+-----BEGIN CERTIFICATE-----
+MIIEsTCCA5mgAwIBAgIQCKWiRs1LXIyD1wK0u6tTSTANBgkqhkiG9w0BAQsFADBh
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD
+QTAeFw0xNzExMDYxMjIzMzNaFw0yNzExMDYxMjIzMzNaMF4xCzAJBgNVBAYTAlVT
+MRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j
+b20xHTAbBgNVBAMTFFJhcGlkU1NMIFJTQSBDQSAyMDE4MIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA5S2oihEo9nnpezoziDtx4WWLLCll/e0t1EYemE5n
++MgP5viaHLy+VpHP+ndX5D18INIuuAV8wFq26KF5U0WNIZiQp6mLtIWjUeWDPA28
+OeyhTlj9TLk2beytbtFU6ypbpWUltmvY5V8ngspC7nFRNCjpfnDED2kRyJzO8yoK
+MFz4J4JE8N7NA1uJwUEFMUvHLs0scLoPZkKcewIRm1RV2AxmFQxJkdf7YN9Pckki
+f2Xgm3b48BZn0zf0qXsSeGu84ua9gwzjzI7tbTBjayTpT+/XpWuBVv6fvarI6bik
+KB859OSGQuw73XXgeuFwEPHTIRoUtkzu3/EQ+LtwznkkdQIDAQABo4IBZjCCAWIw
+HQYDVR0OBBYEFFPKF1n8a8ADIS8aruSqqByCVtp1MB8GA1UdIwQYMBaAFAPeUDVW
+0Uy7ZvCj4hsbw5eyPdFVMA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEF
+BQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADA0BggrBgEFBQcBAQQo
+MCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBCBgNVHR8E
+OzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9i
+YWxSb290Q0EuY3JsMGMGA1UdIARcMFowNwYJYIZIAYb9bAECMCowKAYIKwYBBQUH
+AgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCwYJYIZIAYb9bAEBMAgG
+BmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcNAQELBQADggEBAH4jx/LKNW5ZklFc
+YWs8Ejbm0nyzKeZC2KOVYR7P8gevKyslWm4Xo4BSzKr235FsJ4aFt6yAiv1eY0tZ
+/ZN18bOGSGStoEc/JE4ocIzr8P5Mg11kRYHbmgYnr1Rxeki5mSeb39DGxTpJD4kG
+hs5lXNoo4conUiiJwKaqH7vh2baryd8pMISag83JUqyVGc2tWPpO0329/CWq2kry
+qv66OSMjwulUz0dXf4OHQasR7CNfIr+4KScc6ABlQ5RDF86PGeE6kdwSQkFiB/cQ
+ysNyq0jEDQTkfa2pjmuWtMCNbBnhFXBYejfubIhaUbEv2FOQB3dCav+FPg5eEveX
+TVyMnGo=
 -----END CERTIFICATE-----
